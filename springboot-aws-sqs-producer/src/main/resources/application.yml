@@ -1,0 +1,12 @@
+server:
+  port: 9091
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+    end-point:
+      uri: https://sqs.ap-south-1.amazonaws.com/748701809506/javalearn-queue
+    stack:
+      auto: false
